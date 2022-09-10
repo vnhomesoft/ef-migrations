@@ -6,6 +6,6 @@
     }
   },
   "ConnectionStrings": {
-    "Default" : "Host=localhost;Database=studentman_dev_db;Username=dev;Password=123456"
+    "Default" : "Host=localhost;Database=studentman_test_db;Username=dev;Password=123456"
   }
 }
