@@ -15,6 +15,12 @@ public class StudentSubject {
     [Column("mark")]
     public float Mark { get; set; }
 
+    [Column("created_date", TypeName = "timestamp")]
+    public DateTime CreatedDate { get; set; }
+
+    [Column("last_modified_date", TypeName = "timestamp")]
+    public DateTime LastModifiedDate { get; set; }
+
     public Student? Student { get; set; }
     public Subject? Subject { get; set; }
     
